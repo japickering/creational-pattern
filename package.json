@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Demo of a Creational design pattern in Typescript",
   "main": "./src/index.ts",
-  "type": "module",
   "author": "James Pickering",
   "license": "ISC",
   "scripts": {
     "start": "node ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
   }
 }
