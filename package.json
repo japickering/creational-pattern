@@ -1,5 +1,5 @@
 {
-  "name": "tsc-config",
+  "name": "creational-pattern",
   "version": "1.0.0",
   "description": "Demo of a Creational design pattern in Typescript",
   "main": "./src/index.ts",
