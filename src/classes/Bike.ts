@@ -34,10 +34,6 @@ export default class Bike implements BikeModel {
     return this.gears;
   }
 
-  public playSound() {
-    return 'ting!';
-  }
-
   private calcPrice(val: number) {
     return Math.floor(val + val * this.taxRate);
   }

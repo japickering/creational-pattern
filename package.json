@@ -2,9 +2,9 @@
   "name": "creational-pattern",
   "version": "1.0.0",
   "description": "Creational design pattern in Typescript",
-  "main": "dist/app.ts",
+  "main": "dist/app.js",
   "author": "James Pickering",
-  "license": "ISC",
+  "license": "",
   "scripts": {
     "start": "tsc && node ./dist/app.js",
     "lint": "eslint . --ext .ts"
