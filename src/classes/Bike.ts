@@ -1,3 +1,5 @@
+// Creation design pattern in Typescript
+
 const enum BikePrices {
   UsualPrice = 399,
   TownBikePrice = 299,
@@ -9,8 +11,6 @@ interface BikeModel {
   price: number;
 }
 
-// Creation design pattern
-// define our base class
 export default class Bike implements BikeModel {
   public name: string;
   public gears: number;
@@ -34,6 +34,10 @@ export default class Bike implements BikeModel {
     return this.gears;
   }
 
+  public playSound() {
+    return 'ting!';
+  }
+
   private calcPrice(val: number) {
     return Math.floor(val + val * this.taxRate);
   }
@@ -45,9 +49,3 @@ export default class Bike implements BikeModel {
     return name === 'town bike' ? this.calcPrice(this.townBikePrice) : this.calcPrice(this.usualPrice);
   }
 }
-
-const townBike = new Bike('town bike', 12, 299);
-
-console.log(townBike.getName());
-console.log('has gears ', townBike.getGears());
-console.log('price ', townBike.getPrice());
