@@ -16,5 +16,4 @@ const townBike = new Bike('town bike', 12, 299);
 
 console.log('bike name: ' + townBike.getName());
 console.log('has gears: ', townBike.getGears());
-console.log('bell: ' + townBike.playSound());
 console.log('price: £ ', townBike.getPrice());
