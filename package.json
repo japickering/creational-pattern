@@ -1,5 +1,5 @@
 {
-  "name": "creational-pattern",
+  "name": "factory-pattern",
   "version": "1.0.0",
   "description": "Factory design pattern in Typescript",
   "main": "./src/index.ts",
