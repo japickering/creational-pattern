@@ -1,3 +1,5 @@
-# Factory Design Pattern in Typescript
+# What this code does
 
-Demo of a Factory design pattern in Typescript that implements a Bike interface, improving upon the basic creational design pattern.
+## The Factory Design Pattern - a classic example written in TypeScript
+A Factory design pattern implementing a Factory pattern interface for writing large scale web applications. Based on the widely referenced 'Gang of Four' object-oriented design pattern.
+There are a wide range of practical use cases for such a design pattern.
